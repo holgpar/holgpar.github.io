@@ -1,12 +1,16 @@
 ---
 title: Docker with iptables from the inside
 date: 2017-12-28
+categories: docker kubernetes networking container linux
+excerpt_separator: <!--more-->
 ---
 
 # Docker and Kubernetes with iptables from the inside
 
-In this post I am going to describe how to configure a firewall via iptables
+I am going to describe how to configure a firewall via iptables
 for a single container or a bunch of containers sharing the same network interface (think "pod").
+
+<!--more-->
 
 In the first part, we will focus on plain Docker and then we will repeat the exercise with Kubernetes.
 
